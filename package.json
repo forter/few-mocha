@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/forter/few-mocha",
   "dependencies": {
-    "few": "^1.1.0"
+    "few": "^1.2.0"
   },
   "devDependencies": {
     "mocha": "^2.4.4",
