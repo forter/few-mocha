@@ -19,7 +19,7 @@ function fewMocha (mocha) {
         const currentFunction = this.fn;
 
         if (isGeneratorFunction(currentFunction)) {
-            this.fn = few(currentFunction, done);
+            this.fn = few(currentFunction.bind(undefined, done), done);
             return;
         } else {
             return run.call(this, done);
